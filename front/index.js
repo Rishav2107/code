@@ -1,3 +1,6 @@
+//Javascript works on Two phase execution
+//phase1 : Memory assignment
+//phase2 : Code execution
 console.log("Hello World")
 console.log(x);
 var x = 7;
