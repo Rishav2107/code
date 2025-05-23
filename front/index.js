@@ -1,3 +1,4 @@
+//PDF Notes: https://github.com/alok722/namaste-javascript-notes
 //Javascript works on Two phase execution
 //phase1 : Memory assignment
 //phase2 : Code execution
@@ -76,10 +77,24 @@ function test() {
 console.log(isPrime); //works fine
 //console.log(isEven); //not defined
 
+//objects
+let obj = {
+    first: "Rishav",
+    second: "Kumar",
+    greet: function displayGreet(){
+        console.log("Hello World");
+    }
+}
+console.log(obj.first," ",obj.second);
+obj.greet();
 
+//arrays
+let arr = [34,21,23];
+
+//arrow functions
 //Callback
 //Asynchronous
 //map filter and reduce
-//arrow function
 //Destructuring
 //async await
+//promises
