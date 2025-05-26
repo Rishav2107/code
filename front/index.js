@@ -91,6 +91,10 @@ obj.greet();
 //arrays
 let arr = [34,21,23];
 
+//objects
+const employee = {"company":"google","city":"hyderbad"}
+console.log("employee object:",employee)
+
 //arrow functions
 //Callback
 //Asynchronous
@@ -98,3 +102,5 @@ let arr = [34,21,23];
 //Destructuring
 //async await
 //promises
+
+
