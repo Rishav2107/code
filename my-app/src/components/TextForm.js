@@ -16,7 +16,7 @@ export default function TextForm({heading}) {
         let newText = text.toLocaleLowerCase();
         setText(newText);
     }
-  const[text,setText] = useState('Enter text here');
+  const[text,setText] = useState('');
   return (
     <>
     <div className="container">
@@ -28,7 +28,7 @@ export default function TextForm({heading}) {
         <button className="btn btn-primary mx-2" onClick={handleLoClick}>Convert to LowerCase</button>
     </div>
     <div className="container my-3">
-        <h1>Your text summary:</h1>
+        <h2>Your text summary:</h2>
             <p>
                 {text.split(" ").length} words , {text.length} characters
             </p>
